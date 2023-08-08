@@ -1,0 +1,101 @@
+// .title_card{
+// 
+//     h3:first-child{
+
+//     }
+// }
+
+// .weather_container{
+//     width: 80%;
+//     background-image: url('../../Images/backgroundImage.jpg');
+//     background-size: 100%;
+//     margin: auto;
+
+// }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.weather_container {
+  width: 85%;
+  margin: auto;
+  .search_bar_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    h2{
+      background-color: burlywood;
+      padding: 1% 4%;
+      border-radius: 7px;
+    }
+
+    .search_bar{
+        width: 70%;
+      padding-top: 1%;
+      
+    }
+
+  }
+
+  .weather_container_details {
+    border-radius: 20px;
+    background-image: url("https://img.freepik.com/premium-vector/beautiful-view-sea-mountain-from-top-forest-cartoon-illustration_288411-1832.jpg?w=1380");
+   
+    .first_weather_block {
+      background-size: 100%;
+      color: rgb(24, 2, 29);
+      border-radius: 7px;
+      color: rgb(10, 10, 10);
+
+      #second_weather_block>div{
+        font-size: 70px;
+      }
+      
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      div {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        padding: 2%;
+        margin-right: 2%;
+
+        div {
+          width: 100%;
+          font-weight: 900;
+          padding: 4%;
+        }
+
+        div:first-child {
+          font-size: 25px;
+        }
+
+        div:nth-child(2) {
+          font-size: 100px;
+        }
+      }
+     
+    }
+    .third_weather_block{
+      background-color: black;
+      opacity: 0.5;
+      padding: 2%;
+      padding-left: 12%;
+      font-size: 40px;
+      color: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+}
+
